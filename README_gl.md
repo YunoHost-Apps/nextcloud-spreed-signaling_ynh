@@ -3,15 +3,15 @@ NOTA: Este README foi creado automáticamente por <https://github.com/YunoHost/a
 NON debe editarse manualmente.
 -->
 
-# Nextcloud Talk signaling server para YunoHost
+# Nextcloud Signaling para YunoHost
 
 [![Nivel de integración](https://dash.yunohost.org/integration/nextcloud-signaling.svg)](https://ci-apps.yunohost.org/ci/apps/nextcloud-signaling/) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/nextcloud-signaling.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/nextcloud-signaling.maintain.svg)
 
-[![Instalar Nextcloud Talk signaling server con YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=nextcloud-signaling)
+[![Instalar Nextcloud Signaling con YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=nextcloud-signaling)
 
 *[Le este README en outros idiomas.](./ALL_README.md)*
 
-> *Este paquete permíteche instalar Nextcloud Talk signaling server de xeito rápido e doado nun servidor YunoHost.*  
+> *Este paquete permíteche instalar Nextcloud Signaling de xeito rápido e doado nun servidor YunoHost.*  
 > *Se non usas YunoHost, le a [documentación](https://yunohost.org/install) para saber como instalalo.*
 
 ## Vista xeral
@@ -23,11 +23,11 @@ Improve performances and reliability of Nextcloud Talk. You should be able to ma
 
 ## Capturas de pantalla
 
-![Captura de pantalla de Nextcloud Talk signaling server](./doc/screenshots/nextcloud-hub7-talk-preview.webp)
+![Captura de pantalla de Nextcloud Signaling](./doc/screenshots/nextcloud-hub7-talk-preview.webp)
 
 ## Documentación e recursos
 
-- Repositorio de orixe do código: <https://github.com/strukturag/nextcloud-signaling>
+- Repositorio de orixe do código: <https://github.com/strukturag/nextcloud-spreed-signaling>
 - Tenda YunoHost: <https://apps.yunohost.org/app/nextcloud-signaling>
 - Informar dun problema: <https://github.com/YunoHost-Apps/nextcloud-signaling_ynh/issues>
 

@@ -1,1 +1,1 @@
-If you want good performances, you need a coturn server running on 443 port.
+If you want good performances, you need Coturn server running on 443 port.

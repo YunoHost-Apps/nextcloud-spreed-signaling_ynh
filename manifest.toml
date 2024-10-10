@@ -3,17 +3,17 @@
 packaging_format = 2
 
 id = "nextcloud-signaling"
-name = "Nextcloud Talk signaling server"
+name = "Nextcloud Signaling"
 description.en = "Standalone signaling server in order to meet more than 3 persons onto Nextcloud Talk"
-description.fr = "Expliquez en *quelques* (10~15) mots l'utilité de l'app ou ce qu'elle fait (l'objectif est de donner une idée grossière pour des utilisateurs qui naviguent dans un catalogue de 100+ apps)"
+description.fr = "Serveur de signalisation autonome pour rencontrer plus de 3 personnes sur Nextcloud Talk"
 
 version = "2.0.0~ynh2"
 
 maintainers = ["ljf"]
 
 [upstream]
-license = "AGPL-3.0" 
-code = "https://github.com/strukturag/nextcloud-signaling"
+license = "AGPL-3.0"
+code = "https://github.com/strukturag/nextcloud-spreed-signaling"
 
 [integration]
 yunohost = ">= 12.0.4"
@@ -23,18 +23,15 @@ multi_instance = false
 ldap = "not_relevant"
 sso = "not_relevant"
 
-# FIXME: replace with an **estimate** minimum disk and RAM requirements. e.g. 20M, 400M, 1G...
 disk = "50M"
 ram.build = "50M"
 ram.runtime = "50M"
 
 [install]
     [install.domain]
-    # this is a generic question - ask strings are automatically handled by YunoHost's core
     type = "domain"
 
     [install.path]
-    # this is a generic question - ask strings are automatically handled by YunoHost's core
     type = "path"
     default = "/standalone-signaling"
 
@@ -42,14 +39,14 @@ ram.runtime = "50M"
     ask.en = "Backend url"
     type = "string"
     example = "https://cloud.example.com"
-    help = "Configure the first Nextcloud instance to allow to use this signaling server. After the installation, you will be able to add others instances from the configuration panel of the app."
-    
+    help = "Configure the first Nextcloud instance to allow the use this signaling server. After the installation, you will be able to add others instances from the app configuration panel."
+
     [install.turn_endpoints]
     ask.en = "TURN server endpoints"
     type = "string"
     example = "turn:domain.tld:3478?transport=udp,turn:domain.tld:3478?transport=tcp"
-    help.en = "You need at least one coturn or eturn servers. coturn is packaged for yunohost so you probably should install it somewhere first."
-    
+    help.en = "You need at least one Coturn or eturn servers. Coturn is packaged for YunoHost so you should probably install it first."
+
     [install.turn_api_key]
     ask.en = "TURN API key"
     type = "string"
@@ -60,36 +57,21 @@ ram.runtime = "50M"
 
 
 [resources]
-    # See the packaging documentation for the full set
-    # of explanation regarding the behavior and properties for each of those
 
     [resources.sources]
 
     [resources.sources.main]
-    # This will pre-fetch the asset which can then be deployed during the install/upgrade scripts with :
-    #    ynh_setup_source --dest_dir="$install_dir"
-    # You can also define other assets than "main" and add --source_id="foobar" in the previous command
     url = "https://github.com/strukturag/nextcloud-spreed-signaling/releases/download/v2.0.0/nextcloud-spreed-signaling-v2.0.0.tar.gz"
     sha256 = "3be2e2f4e8c5620766bdb99317243d7e8533e1cc319d328684bf031c4b9c0025"
-
-    # These infos are used by https://github.com/YunoHost/apps/blob/master/tools/autoupdate_app_sources/autoupdate_app_sources.py
-    # to auto-update the previous asset urls and sha256sum + manifest version
-    # assuming the upstream's code repo is on github and relies on tags or releases
-    # See the 'sources' resource documentation for more details
 
     # autoupdate.strategy = "latest_github_tag"
     
     [resources.system_user]
-    # This will provision/deprovision a unix system user
     home = "/var/www/__APP__"
 
     [resources.install_dir]
-    # This will create/remove the install dir as /var/www/$app
-    # and store the corresponding setting $install_dir
 
     [resources.permissions]
-    # This will configure SSOwat permission for $domain/$path/
-    # The initial allowed group of user is configured via the init_main_permission question (public=visitors, private=all_users)
     main.url = "/"
     main.allowed = "visitors"
     main.auth_header = false
@@ -97,13 +79,10 @@ ram.runtime = "50M"
     main.protected = true
 
     [resources.ports]
-    # This will pick a random port for reverse-proxying and store it as the $port setting
     main.default = 8080
     janus_http.default = 8188
     janus_ws.default = 8188
     nats.default = 4222
 
     [resources.apt]
-    # This will automatically install/uninstall the following apt packages
-    # and implicitly define the $phpversion setting as 8.0 (if phpX.Y-foobar dependencies are listed)
-    packages = "automake build-essential python3 protobuf-compiler nats-server janus"
+    packages = "automake, build-essential, python3, protobuf-compiler, nats-server, janus"

@@ -30,6 +30,7 @@ get__backends_urls() {
     for backend in ${backends//,/ }
     do
         sed -n '/\['${backend}'\]/,$p' /etc/$app/server.conf | grep -E -v "^(#|$)" | grep -m1 -E 'url\s+=\s+' | cut -d= -f2 | xargs
+        echo ""
     done
 }
 

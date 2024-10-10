@@ -3,15 +3,15 @@ N.B.: README ini dibuat secara otomatis oleh <https://github.com/YunoHost/apps/t
 Ini TIDAK boleh diedit dengan tangan.
 -->
 
-# Nextcloud Talk signaling server untuk YunoHost
+# Nextcloud Signaling untuk YunoHost
 
 [![Tingkat integrasi](https://dash.yunohost.org/integration/nextcloud-signaling.svg)](https://ci-apps.yunohost.org/ci/apps/nextcloud-signaling/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/nextcloud-signaling.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/nextcloud-signaling.maintain.svg)
 
-[![Pasang Nextcloud Talk signaling server dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=nextcloud-signaling)
+[![Pasang Nextcloud Signaling dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=nextcloud-signaling)
 
 *[Baca README ini dengan bahasa yang lain.](./ALL_README.md)*
 
-> *Paket ini memperbolehkan Anda untuk memasang Nextcloud Talk signaling server secara cepat dan mudah pada server YunoHost.*  
+> *Paket ini memperbolehkan Anda untuk memasang Nextcloud Signaling secara cepat dan mudah pada server YunoHost.*  
 > *Bila Anda tidak mempunyai YunoHost, silakan berkonsultasi dengan [panduan](https://yunohost.org/install) untuk mempelajari bagaimana untuk memasangnya.*
 
 ## Ringkasan
@@ -23,11 +23,11 @@ Improve performances and reliability of Nextcloud Talk. You should be able to ma
 
 ## Tangkapan Layar
 
-![Tangkapan Layar pada Nextcloud Talk signaling server](./doc/screenshots/nextcloud-hub7-talk-preview.webp)
+![Tangkapan Layar pada Nextcloud Signaling](./doc/screenshots/nextcloud-hub7-talk-preview.webp)
 
 ## Dokumentasi dan sumber daya
 
-- Depot kode aplikasi hulu: <https://github.com/strukturag/nextcloud-signaling>
+- Depot kode aplikasi hulu: <https://github.com/strukturag/nextcloud-spreed-signaling>
 - Gudang YunoHost: <https://apps.yunohost.org/app/nextcloud-signaling>
 - Laporkan bug: <https://github.com/YunoHost-Apps/nextcloud-signaling_ynh/issues>
 

@@ -3,15 +3,15 @@ Este archivo README esta generado automaticamente<https://github.com/YunoHost/ap
 No se debe editar a mano.
 -->
 
-# Nextcloud Talk signaling server para Yunohost
+# Nextcloud Signaling para Yunohost
 
 [![Nivel de integración](https://dash.yunohost.org/integration/nextcloud-signaling.svg)](https://ci-apps.yunohost.org/ci/apps/nextcloud-signaling/) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/nextcloud-signaling.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/nextcloud-signaling.maintain.svg)
 
-[![Instalar Nextcloud Talk signaling server con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=nextcloud-signaling)
+[![Instalar Nextcloud Signaling con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=nextcloud-signaling)
 
 *[Leer este README en otros idiomas.](./ALL_README.md)*
 
-> *Este paquete le permite instalarNextcloud Talk signaling server rapidamente y simplement en un servidor YunoHost.*  
+> *Este paquete le permite instalarNextcloud Signaling rapidamente y simplement en un servidor YunoHost.*  
 > *Si no tiene YunoHost, visita [the guide](https://yunohost.org/install) para aprender como instalarla.*
 
 ## Descripción general
@@ -23,11 +23,11 @@ Improve performances and reliability of Nextcloud Talk. You should be able to ma
 
 ## Capturas
 
-![Captura de Nextcloud Talk signaling server](./doc/screenshots/nextcloud-hub7-talk-preview.webp)
+![Captura de Nextcloud Signaling](./doc/screenshots/nextcloud-hub7-talk-preview.webp)
 
 ## Documentaciones y recursos
 
-- Repositorio del código fuente oficial de la aplicación : <https://github.com/strukturag/nextcloud-signaling>
+- Repositorio del código fuente oficial de la aplicación : <https://github.com/strukturag/nextcloud-spreed-signaling>
 - Catálogo YunoHost: <https://apps.yunohost.org/app/nextcloud-signaling>
 - Reportar un error: <https://github.com/YunoHost-Apps/nextcloud-signaling_ynh/issues>
 

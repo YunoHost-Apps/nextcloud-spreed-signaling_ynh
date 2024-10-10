@@ -3,31 +3,31 @@ Nota bene : ce README est automatiquement généré par <https://github.com/Yu
 Il NE doit PAS être modifié à la main.
 -->
 
-# Nextcloud Talk signaling server pour YunoHost
+# Nextcloud Signaling pour YunoHost
 
 [![Niveau d’intégration](https://dash.yunohost.org/integration/nextcloud-signaling.svg)](https://ci-apps.yunohost.org/ci/apps/nextcloud-signaling/) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/nextcloud-signaling.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/nextcloud-signaling.maintain.svg)
 
-[![Installer Nextcloud Talk signaling server avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=nextcloud-signaling)
+[![Installer Nextcloud Signaling avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=nextcloud-signaling)
 
 *[Lire le README dans d'autres langues.](./ALL_README.md)*
 
-> *Ce package vous permet d’installer Nextcloud Talk signaling server rapidement et simplement sur un serveur YunoHost.*  
+> *Ce package vous permet d’installer Nextcloud Signaling rapidement et simplement sur un serveur YunoHost.*  
 > *Si vous n’avez pas YunoHost, consultez [ce guide](https://yunohost.org/install) pour savoir comment l’installer et en profiter.*
 
 ## Vue d’ensemble
 
-Ceci est une fausse description des fonctionalités de l'app
+Améliorez les performances et la fiabilité de Nextcloud Talk. Vous devriez pouvoir passer des appels vidéo avec plus de 3 personnes.
 
 
 **Version incluse :** 2.0.0~ynh2
 
 ## Captures d’écran
 
-![Capture d’écran de Nextcloud Talk signaling server](./doc/screenshots/nextcloud-hub7-talk-preview.webp)
+![Capture d’écran de Nextcloud Signaling](./doc/screenshots/nextcloud-hub7-talk-preview.webp)
 
 ## Documentations et ressources
 
-- Dépôt de code officiel de l’app : <https://github.com/strukturag/nextcloud-signaling>
+- Dépôt de code officiel de l’app : <https://github.com/strukturag/nextcloud-spreed-signaling>
 - YunoHost Store : <https://apps.yunohost.org/app/nextcloud-signaling>
 - Signaler un bug : <https://github.com/YunoHost-Apps/nextcloud-signaling_ynh/issues>
 

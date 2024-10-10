@@ -3,15 +3,15 @@
 Он НЕ ДОЛЖЕН редактироваться вручную.
 -->
 
-# Nextcloud Talk signaling server для YunoHost
+# Nextcloud Signaling для YunoHost
 
 [![Уровень интеграции](https://dash.yunohost.org/integration/nextcloud-signaling.svg)](https://ci-apps.yunohost.org/ci/apps/nextcloud-signaling/) ![Состояние работы](https://ci-apps.yunohost.org/ci/badges/nextcloud-signaling.status.svg) ![Состояние сопровождения](https://ci-apps.yunohost.org/ci/badges/nextcloud-signaling.maintain.svg)
 
-[![Установите Nextcloud Talk signaling server с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=nextcloud-signaling)
+[![Установите Nextcloud Signaling с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=nextcloud-signaling)
 
 *[Прочтите этот README на других языках.](./ALL_README.md)*
 
-> *Этот пакет позволяет Вам установить Nextcloud Talk signaling server быстро и просто на YunoHost-сервер.*  
+> *Этот пакет позволяет Вам установить Nextcloud Signaling быстро и просто на YunoHost-сервер.*  
 > *Если у Вас нет YunoHost, пожалуйста, посмотрите [инструкцию](https://yunohost.org/install), чтобы узнать, как установить его.*
 
 ## Обзор
@@ -23,11 +23,11 @@ Improve performances and reliability of Nextcloud Talk. You should be able to ma
 
 ## Снимки экрана
 
-![Снимок экрана Nextcloud Talk signaling server](./doc/screenshots/nextcloud-hub7-talk-preview.webp)
+![Снимок экрана Nextcloud Signaling](./doc/screenshots/nextcloud-hub7-talk-preview.webp)
 
 ## Документация и ресурсы
 
-- Репозиторий кода главной ветки приложения: <https://github.com/strukturag/nextcloud-signaling>
+- Репозиторий кода главной ветки приложения: <https://github.com/strukturag/nextcloud-spreed-signaling>
 - Магазин YunoHost: <https://apps.yunohost.org/app/nextcloud-signaling>
 - Сообщите об ошибке: <https://github.com/YunoHost-Apps/nextcloud-signaling_ynh/issues>
 
